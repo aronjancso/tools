@@ -27,7 +27,7 @@ services:
     links:
       - server
     ports:
-      - 8080:80
+      - 3307:80
     depends_on:
       - server
     networks:
