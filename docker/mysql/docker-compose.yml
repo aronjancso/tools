@@ -1,0 +1,44 @@
+version: '3.8'
+ 
+services:
+  server:
+    image: mysql:8.0.34
+    container_name: mysql-server
+    restart: always
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: false
+      MYSQL_RANDOM_ROOT_PASSWORD: true
+    ports:
+      - "3306:3306"
+    volumes:
+      - data:/var/lib/mysql
+    networks:
+      mysql:
+        aliases:
+        - server
+  pma:
+    image: phpmyadmin:5.2.1
+    container_name: mysql-pma
+    restart: always
+    environment:
+      PMA_HOST: server
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1
+    links:
+      - server
+    ports:
+      - 3307:80
+    depends_on:
+      - server
+    networks:
+      mysql:
+        aliases:
+        - pma
+
+volumes:
+  data:
+
+networks:
+  mysql:
+    name: mysql
+    driver: bridge
