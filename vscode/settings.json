@@ -1,0 +1,46 @@
+{
+    // workbench & editor related
+    "workbench.startupEditor": "none",
+    "workbench.sideBar.location": "left",
+    "workbench.tips.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.lightbulb.enabled": "off",
+    "editor.codeLens": false,
+    "breadcrumbs.enabled": false,
+    "editor.hover.delay": 500,
+    "editor.hover.enabled": true,
+    // theme related
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Atom One Dark",
+    "editor.tokenColorCustomizations": {
+      "[Atom One Dark]": {
+        "comments": "#ffffff"
+      }
+    },
+    // code formatter defaults
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  }
+  
