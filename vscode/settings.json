@@ -9,6 +9,8 @@
     "breadcrumbs.enabled": false,
     "editor.hover.delay": 500,
     "editor.hover.enabled": true,
+    // extensions related
+    "extensions.ignoreRecommendations": true,
     // theme related
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Atom One Dark",
