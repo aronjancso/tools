@@ -1,0 +1,19 @@
+services:
+  ollama-openwebui:
+    image: ghcr.io/open-webui/open-webui:ollama
+    container_name: ollama-openwebui
+    ports:
+      - "3000:8080"
+    volumes:
+      - ollama:/root/.ollama
+      - open-webui:/app/backend/data
+    restart: always
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]  # utilize GPU 
+
+volumes:
+  ollama:
+  open-webui:
