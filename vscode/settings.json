@@ -19,6 +19,7 @@
         "comments": "#ffffff"
       }
     },
+    "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
     // code formatter defaults
     "[json]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
