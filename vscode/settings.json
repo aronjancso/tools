@@ -1,49 +1,64 @@
 {
-    // workbench & editor related
-    "workbench.startupEditor": "none",
-    "workbench.sideBar.location": "left",
-    "workbench.tips.enabled": false,
-    "editor.minimap.enabled": false,
-    "editor.lightbulb.enabled": "off",
-    "editor.codeLens": false,
-    "breadcrumbs.enabled": false,
-    "editor.hover.delay": 500,
-    "editor.hover.enabled": true,
-    // extensions related
-    "extensions.ignoreRecommendations": true,
-    // theme related
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Atom One Dark",
-    "editor.tokenColorCustomizations": {
-      "[Atom One Dark]": {
-        "comments": "#ffffff"
-      }
-    },
-    "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
-    // code formatter defaults
-    "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[css]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // workbench & editor related
+  "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "left",
+  "workbench.activityBar.location": "top",
+  "workbench.editor.editorActionsLocation": "titleBar",
+  "workbench.tips.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.lightbulb.enabled": "off",
+  "editor.codeLens": false,
+  "breadcrumbs.enabled": false,
+  "editor.hover.delay": 500,
+  "editor.hover.enabled": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "chat.disableAIFeatures": true,
+  "chat.commandCenter.enabled": false,
+  // git related
+  "git.confirmSync": false,
+  "diffEditor.ignoreTrimWhitespace": true,
+  // extensions related
+  "extensions.ignoreRecommendations": true,
+  // theme related
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Atom One Dark",
+  "editor.tokenColorCustomizations": {
+    "[Atom One Dark]": {
+      "comments": "#ffffff"
     }
+  },
+  "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+  // code formatter defaults
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
-  
+}
