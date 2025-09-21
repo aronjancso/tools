@@ -5,9 +5,12 @@
   "workbench.activityBar.location": "top",
   "workbench.editor.editorActionsLocation": "titleBar",
   "workbench.tips.enabled": false,
+  "editor.fontFamily": "'Fira Code', 'MesloLGS Nerd Font', 'MesloLGS NF', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
   "editor.minimap.enabled": false,
   "editor.lightbulb.enabled": "off",
   "editor.codeLens": false,
+  "terminal.integrated.fontFamily": "'MesloLGS Nerd Font', 'MesloLGS NF', Menlo, monospace",
   "breadcrumbs.enabled": false,
   "editor.hover.delay": 500,
   "editor.hover.enabled": true,
@@ -28,7 +31,6 @@
       "comments": "#ffffff"
     }
   },
-  "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
   // code formatter defaults
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -51,7 +53,6 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "javascript.updateImportsOnFileMove.enabled": "never",
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -61,4 +62,6 @@
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
+  // other
+  "javascript.updateImportsOnFileMove.enabled": "never",
 }
